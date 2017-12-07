@@ -56,14 +56,14 @@ hr {
     border-top: 1px solid var(--secondary);
 }
 
-.tatvorwurfp{
+#section2 .tatvorwurfp{
     
     margin-top: 10%;
     font-size: 18px;
     font-weight: 550;
 }
 
-.tatvorwurfp2{
+#section2 .tatvorwurfp2{
     
     margin-top: 2%;
     font-size: 18px;
@@ -72,20 +72,20 @@ hr {
 }
 
 
-.folgen{
+#section2 .folgen{
     
     margin-top: 12%;
     border-top: solid 1px grey; 
 }
 
-.folgenh{
+#section2 .folgenh{
     
     margin-top: 3%;
     margin-bottom: 7%;
 }
 
 
-.folgenp1{
+#section2 .folgenp1{
     
    
     font-size: 15px;
@@ -93,8 +93,7 @@ hr {
       float:left;
 
 }
-
-.folgenp2{
+#section2 .folgenp2{
     
     
     font-size: 15px;
@@ -105,13 +104,15 @@ hr {
 }
 
 
-.Smiley{
+#section2 .Smiley{
         display: block;  
         width: 13%;
    
         margin-left:15%;
         float:left;
 }
+
+
 
 #section1 button{
     margin-left: 25%;
