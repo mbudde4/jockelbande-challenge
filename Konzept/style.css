@@ -28,7 +28,7 @@ div{
 }
 
 #aufgabe {
-
+	
 	background-image: url(images/verlauf1.jpg) ;
 	<!--
 	background-color: #666666;
@@ -36,7 +36,7 @@ div{
 }
 	#aufgabe h1 {
 		margin-left: 120px;
-		margin-top: 120px;
+		margin-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -50,7 +50,7 @@ div{
 		font-size: 20pt;
 	}
 
-
+	
 #anforderung {
 	background-image: url(images/verlauf2.jpg) ;
 	<!--
@@ -60,7 +60,7 @@ div{
 
 	#anforderung h1 {
 		margin-left: 1400px;
-		padding-top: 120px;
+		padding-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -75,7 +75,7 @@ div{
 	}
 
 #verlauf {
-
+	
 	background-image: url(images/verlauf3.jpg) ;
 	<!--
 	background-color: #666666;
@@ -83,7 +83,7 @@ div{
 }
 	#verlauf h1 {
 		margin-left: 120px;
-		margin-top: 120px;
+		margin-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -106,7 +106,7 @@ div{
 	#ausblick h1 {
 		color: white;
 		margin-left: 1400px;
-		padding-top: 120px;
+		padding-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -129,7 +129,7 @@ div{
 }
 	#fazit h1 {
 		margin-left: 120px;
-		margin-top: 120px;
+		margin-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -153,7 +153,7 @@ div{
 
 	#anlagen h1 {
 		margin-left: 1400px;
-		padding-top: 120px;
+		padding-top: 120px; 
 		font-size: 30pt;
 		font-variant: small-caps;
 	}
@@ -173,3 +173,7 @@ div{
 	#anlagen a{
 		text-decoration: none;
 	}
+	
+
+	
+
