@@ -50,6 +50,7 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker2='rechts2';
+                    ueberschreitung= ueberschreitung+3;
                   
             }
             else
@@ -134,13 +135,10 @@
                         
                         <p class="tatvorwurfp"> Sie haben die zulässige Höchstgeschwindigkeit von 50 km/h innerhalb geschlossener Ortschaften um
                         <script>
-                            if(image_tracker2=="links2")
-                                {
+                                    
                                      document.write(ueberschreitung*(-1))
-                                }
-                           else{
-                                     document.write((ueberschreitung-3)*(-1))
-                                }
+                                
+                           
                         </script>
                         Km/h überschritten (abzüglich Toleranzbereich). </p>
                         
