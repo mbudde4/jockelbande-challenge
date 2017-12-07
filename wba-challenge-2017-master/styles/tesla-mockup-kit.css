@@ -56,6 +56,11 @@ hr {
     border-top: 1px solid var(--secondary);
 }
 
+#section2 .tatvorwurf{
+ 
+    
+}
+
 #section2 .tatvorwurfp{
     
     margin-top: 10%;
@@ -63,24 +68,43 @@ hr {
     font-weight: 550;
 }
 
-#section2 .tatvorwurfp2{
+
+
+#section2 .status{
+ 
+    border-top: solid 1px grey; 
+    margin-bottom: 15%;
     
-    margin-top: 2%;
-    font-size: 18px;
-    font-weight: 550;
+}
+
+#section2 .statusp1{
     
+   
+    font-size: 15px;
+    font-weight: 650;
+    float:left;
+
+}
+#section2 .statusp2{
+    
+    
+    font-size: 15px;
+    font-weight: 650;
+    margin-left: 25%;
+    width: 20%;
+    float:left;
 }
 
 
 #section2 .folgen{
-    
-    margin-top: 12%;
+ 
     border-top: solid 1px grey; 
+    padding-top: 2%;
 }
 
 #section2 .folgenh{
     
-    margin-top: 3%;
+
     margin-bottom: 7%;
 }
 
