@@ -22,9 +22,7 @@ header h1 {
 	padding-top: 40px;
 	font-variant: small-caps;
 }
-<<<<<<< HEAD
 
-=======
 
 
 .links h1{
@@ -34,6 +32,14 @@ header h1 {
 	font-variant: small-caps;
 }
 
+div p{
+    color: white;
+}
+
+div h2 {
+    color: white;
+}
+
 
 
 #aufgabe {
@@ -41,8 +47,18 @@ header h1 {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
+    
 }
 
+#aufgabe p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#aufgabe h2{
+    margin-top: 51px
+    
+}
 
 
 
@@ -56,6 +72,16 @@ header h1 {
 	height: 1000px;
 }
 
+#anforderung p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#anforderung h2{
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
 
 #verlauf {
 
@@ -66,6 +92,16 @@ header h1 {
 	height: 1000px;
 }
 
+#verlauf p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#verlauf h2{
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
 
 #ausblick {
 
@@ -73,6 +109,16 @@ header h1 {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1000px;
+}
+
+#ausblick p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#ausblick h2{
+    margin-top: 51px;
+    margin-left: 51px;
 }
 
 
@@ -86,6 +132,16 @@ header h1 {
 	height: 1000px;
 }
 
+#fazit p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#fazit h2{
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
 
 #anlagen {
 
@@ -95,6 +151,15 @@ header h1 {
 	height: 1000px;
 }
 
+#anlagen p {
+    margin-top: 51px;
+    margin-left: 51px;
+}
+
+#anlagen h2{
+    margin-top: 51px;
+    margin-left: 51px;
+}
 #anlagen a{
 		text-decoration: none;
 		color: black;
