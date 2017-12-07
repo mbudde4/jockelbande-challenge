@@ -24,23 +24,20 @@ header h1 {
 }
 
 
-.links h1{
-	margin-left: 120px;
-	margin-top: 10px;
-	font-size: 30pt;
-	font-variant: small-caps;
-}
+
 
 div p{
 	color: white;
 	margin-top: 30px;
-	margin-left: 51px;
+	margin-left: 100px;
+	
 }
 
 div h2{
 	color: white;
-	margin-top: 100px;
-	margin-left: 51px;
+	margin-top: 200px;
+	margin-left: 300px;
+	font-variant: small-caps;
 }
 
 
@@ -81,6 +78,9 @@ div h2{
 	height: 775px;
 }
 
+#verlauf h2 {
+	margin-top: 100px;
+}
 
 #ausblick {
 
@@ -88,6 +88,10 @@ div h2{
 	display: grid;
 
 	height: 775px;
+}
+
+#ausblick h2 {
+	margin-top: 250px;
 }
 
 
