@@ -22,13 +22,11 @@ header h1 {
 	padding-top: 40px;
 	font-variant: small-caps;
 }
-div{
-	border: black 1px solid;
-}
+
 
 .links h1{
 	margin-left: 120px;
-	margin-top: 120px; 
+	margin-top: 10px; 
 	font-size: 30pt;
 	font-variant: small-caps;
 }
