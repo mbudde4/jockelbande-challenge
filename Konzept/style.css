@@ -23,7 +23,6 @@ header h1 {
 	font-variant: small-caps;
 }
 div{
-	height: 1080px;
 	border: black 1px solid;
 }
 
@@ -59,14 +58,32 @@ div{
 	font-size: 20pt;
 }
 
+.right {
+float: right;
+margin-left: 10px;
+}
+
 
 #aufgabe {	
-	background-image: url(images/verlauf1.jpg) ;
+	background-image: url(images/verlauf1.jpg) ; 
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
+}
+
+#aufgabe img {
+	width: 1000px;
+	height: 750px;
+	margin-right: 200px;
+	margin-top: 100px;
+	border: white 4px solid;
+	border-radius: 10px;
 }
 	
+
 
 	
 #anforderung {
@@ -74,6 +91,9 @@ div{
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
 }
 
 
@@ -83,6 +103,9 @@ div{
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
 }
 	
 
@@ -91,6 +114,9 @@ div{
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
 }
 
 #ausblick h1{
@@ -107,6 +133,9 @@ div{
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
 }
 	
 
@@ -115,6 +144,9 @@ div{
 	<!--
 	background-color: #666666;
 	-->
+	display: grid;
+	grid-template-columns: auto auto auto;
+	height: 1080px;
 }
 
 #anlagen a{
