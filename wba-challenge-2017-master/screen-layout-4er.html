@@ -16,16 +16,31 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     
-    <!-- ##############Javascript########### --> 
+                 <!-- ##############Javascript########### --> 
     <script type=text/javascript>
         
         
         var akt_geschwindigkeit = 50;
         var zul_geschwindigkeit = 60;
           
-        var ueberschreitung = akt_geschwindigkeit - zul_geschwindigkeit;
+        var ueberschreitung =  zul_geschwindigkeit-akt_geschwindigkeit;
           
+        function berechnungt_t(switchgeklickt)
+        {
+            if(switchgeklickt==false)
+                {
+                    ueberschreitung = ueberschreitung +3;
+                }
+            else
+            {
+                ueberschreitung = ueberschreitung -3;
+            }
+        }
         
+        function ueberschreitung_setzen(ueberschreitung)
+        {
+            document.getElementById("toleranz").innerHTML = ueberschreitung;
+        }
         
        var image_tracker1='links1';
       function change1() {
@@ -36,11 +51,14 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker1='rechts1';
+                    
             }
             else
             {
               image.src='images/tsl/Switch.svg';
               image_tracker1='links1';
+                
+              
             }
       }
          var image_tracker2='links2';
@@ -50,25 +68,30 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker2='rechts2';
-                    ueberschreitung= ueberschreitung+3;
+                berechnungt_t(true);
+                ueberschreitung_setzen(ueberschreitung);
+                console.log(ueberschreitung);
                   
             }
             else
             {
               image.src='images/tsl/Switch.svg';
               image_tracker2='links2';
+                berechnungt_t(false);
+               ueberschreitung_setzen(ueberschreitung);
+                console.log(ueberschreitung);
             }
       }
     </script>
- <!-- ##############Javascript########### -->  
+<!-- ##############Javascript########### -->  
 </head>
-                            
+
 <body>
     <main class="screen" id="screen">
 
         <section class="screen__top-area">
             <div class="top-area__upper-content">
-                <div id="sidebar" class="upper-content__left" datatrigger="fullscreenTarget">
+                <div id="sidebar" class="upper-content__left" data-trigger="fullscreenTarget">
                     <img src="images/tsl/tsl-sidebar-tr.svg" alt="sidebar" id="tsl-sidebar">
                 </div>
                 <div class="upper-content__right" data-trigger="fullscreen" data-content-upper>
@@ -91,17 +114,17 @@
                   <li class="main-control__switch main-control__switch--volume"><img src="images/main-control-bar/volume-icon.svg" alt="switch volume"></li>
                 </ul>
         </section>
-                                           
+
         <div id="sectionBottom" class="screen__bottom-area">
-                                                                                   
+
             <!-- Section 1: oben links
-				  ##########################################################################-->
+				##########################################################################-->
             <section id="section1" class="bottom-area__item">
                 <div class="screen__content" draggable="true"  data-screen-content>
                     <!-- Put your Content here ###########################################-->
 
                     <h4>Bußgeldrechner</h4>
-                    <!-- ##############################################-->                  
+                    <!-- ##########-->
                     <p>Aktuelle Geschwindigkeit: <span>60</span></p>
                     <p>Zulässige Geschwindigkeit: <span>50</span></p>
                     <!-- ###########-->
@@ -134,17 +157,13 @@
                         <h1 class= "tatvorwurfh"> Tatvorwurf </h1>
                         
                         <p class="tatvorwurfp"> Sie haben die zulässige Höchstgeschwindigkeit von 50 km/h innerhalb geschlossener Ortschaften um
-                        <script>
-                                    
-                                     document.write(ueberschreitung*(-1))
-                                
-                           
-                        </script>
+                        <span id="toleranz">10
+                            </span>
                         Km/h überschritten (abzüglich Toleranzbereich). </p>
                         
                     </div>
-                                                         
-                                                                                    
+                    
+                    
                      <div class="status"> 
                     
                         <h1 class="statush"> Status </h1>
@@ -152,11 +171,11 @@
                          <p class="statusp1"> Schulden:<br> Punkte insgesamt:<br>Fahrzeugart: </p>
                          
                          <p class="statusp2">100 Euro<br> 6 <br> PKW/sonstiges KFZ bis 3,5t</p>
-                                                                           
+            
                     
                     </div>
                     
-                                                                                 
+                        
                     
                     <div class="folgen">
                         
@@ -171,23 +190,28 @@
                         <div class="Smiley">       
                    
                             <img src="images\Bilder\Frowning-smiley.svg" alt="Smiley"/>
-                                                                         
+       
                             
                         </div>
                         
                     </div>
                     
+<<<<<<< HEAD
+
+                    <!-- End of content box 4 ############################################-->
+=======
                                                                                
                     <!-- End of content box 4 #########################################################-->
+>>>>>>> 9b12d1a53205263f143e69b4b5e707ba38065962
                 </div>
             </section>
-                                                                    
+
             <!-- Section 3: unten links
 				#######################################################################################-->
             <section id="section3" class="bottom-area__item">
                 <div class="screen__content" draggable="true" data-screen-content>
                   
-                                                                            
+                    
                      <div class="news">
                     
                         <div class="newsheader">
@@ -228,32 +252,43 @@
                                 <p class="newszeile2p">
                                  Autounfall: Auf der Kölner-Straße gab es einen gewaltigen Crash. Laut Zeugen ist ein Auto mit ca 50 km/h gegen ein  ...
                                  </p>
-                                                                                        
+                                 
                                  <div class="newszeile2img">
                                      
                                     <img src="images\Bilder\Car_crash_1.jpg" alt="Auto Crash"/>
                                      
                                  </div>
-                                                                                           
+                                 
                                  
                              </div>
-                                                                       
+                             
                               <div class="newszeile3">
+<<<<<<< HEAD
+                             
+                              <h1 class="newszeile3h"> focus.de </h1> 
+=======
               
                               <h1 class="newszeile3h"> <a href="http://www.focus.de/"style="color: gray"> focus.de </a></h1> 
 
+>>>>>>> 9b12d1a53205263f143e69b4b5e707ba38065962
                                  <br>
-                                                                         
+                            
                                 <p class="newszeile3p">
                                  Ägypten: Das Rätsel geht weiter. Nachdem Forscher in den großen Pyramiden Ägyptens einige Details genauer ...
                                  </p>
-                                                                                
+                                 
                                  <div class="newszeile3img">
+<<<<<<< HEAD
+                                     
+                                    <img src="images\Bilder\Giza_Khafres_pyramid.JPG" alt="Pyramidenmauer"/>
+                                     
+=======
 
                                      
                                     <img src="images\Bilder\Giza_Khafres_pyramid.JPG" alt="Pyramidenmauer"/>
                                      
 
+>>>>>>> 9b12d1a53205263f143e69b4b5e707ba38065962
                                  </div>
                                  
                                  
