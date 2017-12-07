@@ -6,7 +6,7 @@
 
 body{
 	background-color: white;
-	width: 1920px;
+	width: 100%;
 	margin: 25px auto;
 	margin-top: 0px;
 }
@@ -57,9 +57,9 @@ header h1 {
 
 #anforderung {
 
-	
-	background-color: #444444;
-	
+	<!--
+	background-color: #666666;
+	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -69,9 +69,9 @@ header h1 {
 #verlauf {
 
 
-	
-	background-color: #999999;
-	
+	<!--
+	background-color: #666666;
+	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -80,9 +80,9 @@ header h1 {
 
 #ausblick {
 
-	
-	background-color: #111111;
-	
+	<!--
+	background-color: #666666;
+	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -98,9 +98,10 @@ header h1 {
 
 
 #fazit {
-	
-	background-color: #222222;
-	
+
+	<!--
+	background-color: #666666;
+	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -109,9 +110,9 @@ header h1 {
 
 #anlagen {
 
-	
-	background-color: yellow;
-	
+	<!--
+	background-color: #666666;
+	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
