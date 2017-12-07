@@ -23,24 +23,20 @@ header h1 {
 	font-variant: small-caps;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6d952df84e7eb6976ba9e3e90e0fd9f54954f7f1
 
 
 
 div p{
 	color: white;
 	margin-top: 30px;
-	margin-left: 100px;
+	margin-left: 150px;
 	
 }
 
 div h2{
 	color: white;
 	margin-top: 200px;
-	margin-left: 300px;
+	margin-left: 350px;
 	font-variant: small-caps;
 }
 
@@ -96,13 +92,11 @@ div h2{
 	display: grid;
 
 	height: 775px;
-<<<<<<< HEAD
-=======
-}
+
 
 #ausblick h2 {
 	margin-top: 250px;
->>>>>>> 6d952df84e7eb6976ba9e3e90e0fd9f54954f7f1
+
 }
 
 
