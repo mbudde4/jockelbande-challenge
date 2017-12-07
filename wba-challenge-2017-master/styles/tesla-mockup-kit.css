@@ -173,7 +173,8 @@ hr {
 
 #section3 .news{
     
-    border: solid, 1px grey;
+   
+
 }
 
 #section3 .newsheader{
@@ -270,13 +271,14 @@ hr {
 }
 #section3 .newszeile3 .newszeile3img{
     
-    width: 20%;
+     width: 20%;
      float:right;
 }
 
 #section3 .btn {
     
     margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 35%;
     
 }
