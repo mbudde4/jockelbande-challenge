@@ -27,28 +27,46 @@ div{
 	border: black 1px solid;
 }
 
-#aufgabe {
-	
+.links h1{
+	margin-left: 120px;
+	margin-top: 120px; 
+	font-size: 30pt;
+	font-variant: small-caps;
+}
+
+.links p{
+	width: 300px;
+	text-align: left;
+	line-height: 25px;
+	padding-left: 100px;
+	padding-top: 30px;
+	font-size: 20pt;
+}
+
+.rechts h1{
+	margin-left: 1000px;
+	padding-top: 120px; 
+	font-size: 30pt;
+	font-variant: small-caps;
+}
+
+.rechts p{
+	width: 300px;
+	text-align: right;
+	line-height: 25px;
+	margin-left: 1000px;
+	padding-top: 30px;
+	font-size: 20pt;
+}
+
+
+#aufgabe {	
 	background-image: url(images/verlauf1.jpg) ;
 	<!--
 	background-color: #666666;
 	-->
 }
-	#aufgabe h1 {
-		margin-left: 120px;
-		margin-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#aufgabe p {
-		width: 300px;
-		text-align: left;
-		line-height: 25px;
-		padding-left: 100px;
-		padding-top: 30px;
-		font-size: 20pt;
-	}
+	
 
 	
 #anforderung {
@@ -58,21 +76,6 @@ div{
 	-->
 }
 
-	#anforderung h1 {
-		margin-left: 1400px;
-		padding-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#anforderung p {
-		width: 300px;
-		text-align: right;
-		line-height: 25px;
-		margin-left: 1400px;
-		padding-top: 30px;
-		font-size: 20pt;
-	}
 
 #verlauf {
 	
@@ -81,21 +84,7 @@ div{
 	background-color: #666666;
 	-->
 }
-	#verlauf h1 {
-		margin-left: 120px;
-		margin-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#verlauf p {
-		width: 300px;
-		text-align: left;
-		line-height: 25px;
-		padding-left: 100px;
-		padding-top: 30px;
-		font-size: 20pt;
-	}
+	
 
 #ausblick {
 	background-image: url(images/verlauf4.jpg) ;
@@ -103,23 +92,7 @@ div{
 	background-color: #666666;
 	-->
 }
-	#ausblick h1 {
-		color: white;
-		margin-left: 1400px;
-		padding-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#ausblick p {
-		color: white;
-		width: 300px;
-		text-align: right;
-		line-height: 25px;
-		margin-left: 1400px;
-		padding-top: 30px;
-		font-size: 20pt;
-	}
+	
 
 #fazit {
 	background-image: url(images/verlauf5.jpg) ;
@@ -127,22 +100,7 @@ div{
 	background-color: #666666;
 	-->
 }
-	#fazit h1 {
-		margin-left: 120px;
-		margin-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#fazit p {
-		width: 300px;
-		text-align: left;
-		line-height: 25px;
-		padding-left: 100px;
-		padding-top: 30px;
-		font-size: 20pt;
-
-	}
+	
 
 #anlagen {
 	background-image: url(images/verlauf6.jpg) ;
@@ -151,26 +109,7 @@ div{
 	-->
 }
 
-	#anlagen h1 {
-		margin-left: 1400px;
-		padding-top: 120px; 
-		font-size: 30pt;
-		font-variant: small-caps;
-	}
-
-	#anlagen p {
-		width: 300px;
-		text-align: right;
-		line-height: 25px;
-		margin-left: 1400px;
-		padding-top: 30px;
-		font-size: 20pt;
-		text-decoration: none;
-		color: black;
-
-	}
-
-	#anlagen a{
+#anlagen a{
 		text-decoration: none;
 	}
 	
