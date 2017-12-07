@@ -16,16 +16,31 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     
-    <!-- ##############Javascript########### --> 
+                 <!-- ##############Javascript########### --> 
     <script type=text/javascript>
         
         
         var akt_geschwindigkeit = 50;
         var zul_geschwindigkeit = 60;
           
-        var ueberschreitung = akt_geschwindigkeit - zul_geschwindigkeit;
+        var ueberschreitung =  zul_geschwindigkeit-akt_geschwindigkeit;
           
+        function berechnungt_t(switchgeklickt)
+        {
+            if(switchgeklickt==false)
+                {
+                    ueberschreitung = ueberschreitung +3;
+                }
+            else
+            {
+                ueberschreitung = ueberschreitung -3;
+            }
+        }
         
+        function ueberschreitung_setzen(ueberschreitung)
+        {
+            document.getElementById("toleranz").innerHTML = ueberschreitung;
+        }
         
        var image_tracker1='links1';
       function change1() {
@@ -36,11 +51,14 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker1='rechts1';
+                    
             }
             else
             {
               image.src='images/tsl/Switch.svg';
               image_tracker1='links1';
+                
+              
             }
       }
          var image_tracker2='links2';
@@ -50,13 +68,18 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker2='rechts2';
-                    ueberschreitung= ueberschreitung+3;
+                berechnungt_t(true);
+                ueberschreitung_setzen(ueberschreitung);
+                console.log(ueberschreitung);
                   
             }
             else
             {
               image.src='images/tsl/Switch.svg';
               image_tracker2='links2';
+                berechnungt_t(false);
+               ueberschreitung_setzen(ueberschreitung);
+                console.log(ueberschreitung);
             }
       }
     </script>
@@ -134,12 +157,8 @@
                         <h1 class= "tatvorwurfh"> Tatvorwurf </h1>
                         
                         <p class="tatvorwurfp"> Sie haben die zulässige Höchstgeschwindigkeit von 50 km/h innerhalb geschlossener Ortschaften um
-                        <script>
-                                    
-                                     document.write(ueberschreitung*(-1))
-                                
-                           
-                        </script>
+                        <span id="toleranz">10
+                            </span>
                         Km/h überschritten (abzüglich Toleranzbereich). </p>
                         
                     </div>
