@@ -170,3 +170,19 @@ hr {
     /*neu*/float: right;
     
 }
+
+#section3 .news{
+    
+    
+}
+
+#section3 .newsheader{
+    
+    background-color: var(--tsl-red);
+}
+
+#section3 .newsheaderh{
+    
+    color:  var(--tsl-white);
+    
+}

@@ -22,53 +22,22 @@ header h1 {
 	padding-top: 40px;
 	font-variant: small-caps;
 }
-div{
-	border: black 1px solid;
-}
+<<<<<<< HEAD
+
+=======
+
 
 .links h1{
 	margin-left: 120px;
-	margin-top: 120px; 
+	margin-top: 10px;
 	font-size: 30pt;
 	font-variant: small-caps;
 }
 
-.links p{
-	width: 300px;
-	text-align: left;
-	line-height: 25px;
-	padding-left: 100px;
-	padding-top: 30px;
-	font-size: 20pt;
-}
-
-.rechts h1{
-	margin-left: 1400px;
-	padding-top: 120px; 
-	font-size: 30pt;
-	font-variant: small-caps;
-}
-
-.rechts p{
-	width: 300px;
-	text-align: right;
-	line-height: 25px;
-	margin-left: 1400px;
-	padding-top: 30px;
-	font-size: 20pt;
-}
-
-.right {
-float: right;
-margin-left: 10px;
-}
 
 
-#aufgabe {	
-	background-image: url(images/verlauf1.jpg) ; 
-	<!--
+#aufgabe {
 	background-color: #666666;
-	-->
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -82,15 +51,15 @@ margin-left: 10px;
 	border: white 4px solid;
 	border-radius: 10px;
 }
-	
 
 
-	
+
+
 #anforderung {
-	background-image: url(images/verlauf2.jpg) ;
-	<!--
-	background-color: #666666;
-	-->
+
+	
+	background-color: #444444;
+	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -98,22 +67,22 @@ margin-left: 10px;
 
 
 #verlauf {
+
+
 	
-	background-image: url(images/verlauf3.jpg) ;
-	<!--
-	background-color: #666666;
-	-->
+	background-color: #999999;
+	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
 }
-	
+
 
 #ausblick {
-	background-image: url(images/verlauf4.jpg) ;
-	<!--
-	background-color: #666666;
-	-->
+
+	
+	background-color: #111111;
+	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -126,24 +95,23 @@ margin-left: 10px;
 #ausblick p{
 	color: white;
 }
-	
+
 
 #fazit {
-	background-image: url(images/verlauf5.jpg) ;
-	<!--
-	background-color: #666666;
-	-->
+	
+	background-color: #222222;
+	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
 }
-	
+
 
 #anlagen {
-	background-image: url(images/verlauf6.jpg) ;
-	<!--
-	background-color: #666666;
-	-->
+
+	
+	background-color: yellow;
+	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -153,6 +121,3 @@ margin-left: 10px;
 		text-decoration: none;
 		color: black;
 	}
-	
-
-	
