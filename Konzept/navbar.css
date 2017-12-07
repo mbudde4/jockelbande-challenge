@@ -1,3 +1,7 @@
+.navbar-default {
+    background-color: #180721 !important;
+    border-color: #e7e7e700 !important;
+  }
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -17,6 +21,7 @@
     background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
+  background-color: #3b2b38;
     border-color: transparent;
     color: #fff !important;
 }
