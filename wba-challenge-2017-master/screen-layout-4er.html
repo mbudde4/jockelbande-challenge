@@ -27,36 +27,36 @@
           
         var ueberschreitung_t = 0;
         
-       var image_tracker='links1';
+       var image_tracker1='links1';
       function change1() {
             var image = document.getElementById('switch1');
           
             
-            if(image_tracker=='links1')
+            if(image_tracker1=='links1')
             {
                   image.src='images/tsl/Switch-2.svg';
-                  image_tracker='rechts1';
+                  image_tracker1='rechts1';
             }
             else
             {
               image.src='images/tsl/Switch.svg';
-              image_tracker='links1';
+              image_tracker1='links1';
             }
       }
-         var image_tracker='links2';
+         var image_tracker2='links2';
       function change2() {
             var image = document.getElementById('switch2');
-            if(image_tracker=='links2')
+            if(image_tracker2=='links2')
             {
                   image.src='images/tsl/Switch-2.svg';
-                  image_tracker='rechts2';
+                  image_tracker2='rechts2';
                   ueberschreitung_t= ueberschreitung-2;
                 
             }
             else
             {
               image.src='images/tsl/Switch.svg';
-              image_tracker='links2';
+              image_tracker2='links2';
             }
       }
     </script>
