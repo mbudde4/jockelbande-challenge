@@ -6,7 +6,7 @@
 
 body{
 	background-color: white;
-	width: 1920px;
+	width: 100%;
 	margin: 25px auto;
 	margin-top: 0px;
 }
@@ -37,7 +37,7 @@ header h1 {
 
 
 #aufgabe {
-	background-color: #666666;
+	background-color:rgb(0,0,0);
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -57,9 +57,9 @@ header h1 {
 
 #anforderung {
 
-	
-	background-color: #444444;
-	
+
+	background-color: rgb(51, 51, 51);
+
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
@@ -69,8 +69,8 @@ header h1 {
 #verlauf {
 
 
-	
-	background-color: #999999;
+
+	background-color: rgb(255, 255, 255);
 	
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -81,25 +81,20 @@ header h1 {
 #ausblick {
 
 	
-	background-color: #111111;
+	background-color: rgb(0,0,0);
 	
 	display: grid;
 	grid-template-columns: auto auto auto;
 	height: 1080px;
 }
 
-#ausblick h1{
-	color: white;
-}
 
-#ausblick p{
-	color: white;
-}
 
 
 #fazit {
+
 	
-	background-color: #222222;
+	background-color: rgb(51,51,51);
 	
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -110,7 +105,7 @@ header h1 {
 #anlagen {
 
 	
-	background-color: yellow;
+	background-color: rgb(255,255,255);
 	
 	display: grid;
 	grid-template-columns: auto auto auto;

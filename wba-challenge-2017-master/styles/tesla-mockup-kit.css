@@ -179,10 +179,22 @@ hr {
 #section3 .newsheader{
     
     background-color: var(--tsl-red);
+    mar
+
 }
 
 #section3 .newsheaderh{
     
     color:  var(--tsl-white);
-    
+    font-size: 18px;
+
 }
+
+#section3 .newslogo{
+    
+    width: 10%;
+  
+
+}
+
+#section3 .
