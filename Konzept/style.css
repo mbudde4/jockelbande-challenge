@@ -27,6 +27,7 @@ div{
 	border: black 1px solid;
 }
 
+
 .links h1{
 	margin-left: 120px;
 	margin-top: 120px; 
@@ -59,8 +60,7 @@ div{
 	font-size: 20pt;
 }
 
-
-#aufgabe {	
+#aufgabe {
 	background-image: url(images/verlauf1.jpg) ;
 	<!--
 	background-color: #666666;
@@ -68,7 +68,7 @@ div{
 }
 	
 
-	
+
 #anforderung {
 	background-image: url(images/verlauf2.jpg) ;
 	<!--
@@ -76,22 +76,23 @@ div{
 	-->
 }
 
+	
 
 #verlauf {
-	
+
 	background-image: url(images/verlauf3.jpg) ;
 	<!--
 	background-color: #666666;
 	-->
 }
 	
-
 #ausblick {
 	background-image: url(images/verlauf4.jpg) ;
 	<!--
 	background-color: #666666;
 	-->
 }
+
 
 #ausblick h1{
 	color: white;
@@ -101,6 +102,7 @@ div{
 	color: white;
 }
 	
+
 
 #fazit {
 	background-image: url(images/verlauf5.jpg) ;
@@ -117,11 +119,11 @@ div{
 	-->
 }
 
+
 #anlagen a{
 		text-decoration: none;
 		color: black;
-	}
-	
 
 	
 
+	
