@@ -173,7 +173,7 @@ hr {
 
 #section3 .news{
     
-    
+    border: solid, 1px grey;
 }
 
 #section3 .newsheader{
@@ -197,4 +197,36 @@ hr {
 
 }
 
-#section3 .
+#section3 .newszeile1{
+    
+    margin-bottom: 15%;
+}
+
+#section3 .newszeile1 .newszeile1h{
+    
+    font-size: 12px;
+    float:left;
+    
+    
+}
+
+#section3 .newszeile1 .newszeile1p{
+    
+    font-size: 16px;
+     width: 70%;
+    
+    float:left;
+}
+#section3 .newszeile1 .newszeile1img{
+    
+    width: 15%;
+     float:right;
+}
+
+#section3 .newszeile2{
+    
+     border-top: solid 1px grey; 
+     padding-top: 1%; 
+     margin-bottom: 10%;
+}
+
