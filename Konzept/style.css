@@ -22,24 +22,23 @@ header h1 {
 	padding-top: 40px;
 	font-variant: small-caps;
 }
+<<<<<<< HEAD
 
 
 
-
-div p{
-	color: white;
-	margin-top: 30px;
-	margin-left: 150px;
-	
-}
 
 div h2{
 	color: white;
 	margin-top: 200px;
-	margin-left: 350px;
-	font-variant: small-caps;
+	margin-left: 300px;
 }
 
+div p{
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+
+}
 
 
 #aufgabe {
@@ -82,9 +81,6 @@ div h2{
 	height: 775px;
 }
 
-#verlauf h2 {
-	margin-top: 100px;
-}
 
 #ausblick {
 
@@ -92,11 +88,6 @@ div h2{
 	display: grid;
 
 	height: 775px;
-
-
-#ausblick h2 {
-	margin-top: 250px;
-
 }
 
 
@@ -124,21 +115,6 @@ div h2{
 		color: black;
 	}
 
-.carousel-indicators li {
-	    display: inline-block;
-	    width: 10px;
-	    height: 10px;
-	    margin: 1px;
-	    text-indent: -999px;
-	    cursor: pointer;
-	    background-color: #000\9;
-	    background-color: rgba(0,0,0,0);
-	    border: 1px solid #fff;
-	    border-radius: 10px;
+	#ausblick h2 {
+		margin-top: 250px;
 	}
-	.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #fff;
-}
