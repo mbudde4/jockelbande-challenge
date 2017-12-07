@@ -23,17 +23,27 @@ header h1 {
 	font-variant: small-caps;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 9b12d1a53205263f143e69b4b5e707ba38065962
 
 
-.links h1{
-	margin-left: 120px;
-	margin-top: 10px;
-	font-size: 30pt;
-	font-variant: small-caps;
+
+
+div h2{
+	color: white;
+	margin-top: 200px;
+	margin-left: 300px;
 }
 
+div p{
+	color: white;
+	margin-top: 30px;
+	margin-left: 100px;
+
+}
 
 
 #aufgabe {
@@ -52,7 +62,11 @@ header h1 {
 }
 
 
-
+.carousel {
+    position:  inherit;
+		margin-top: 300px;
+		margin-left:300px
+}
 
 #anforderung {
 
@@ -78,7 +92,7 @@ header h1 {
 	background-color: rgb(51,51,51);
 	display: grid;
 
-	hheight: 775px;
+	height: 775px;
 }
 
 
@@ -104,4 +118,8 @@ header h1 {
 #anlagen a{
 		text-decoration: none;
 		color: black;
+	}
+
+	#ausblick h2 {
+		margin-top: 250px;
 	}

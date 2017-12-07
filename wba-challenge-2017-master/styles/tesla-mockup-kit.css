@@ -212,6 +212,13 @@ hr {
     text-decoration: underline;
 }
 
+#section3 .newszeile1 .newszeile1h a:hover{
+    
+   background-color: white;
+    
+}
+
+
 #section3 .newszeile1 .newszeile1p{
     
     font-size: 16px;
@@ -237,6 +244,13 @@ hr {
     float:left;
     margin-bottom: 0%;
     text-decoration: underline;
+    
+}
+
+#section3 .newszeile2 .newszeile2h a:hover{
+    
+   background-color: white;
+    
 }
 
 #section3 .newszeile2 .newszeile2p{
@@ -264,6 +278,12 @@ hr {
     float:left;
     margin-bottom: 0%;
     text-decoration: underline;
+    
+}
+#section3 .newszeile3 .newszeile3h a:hover{
+
+background-color: white;
+    
 }
 
 #section3 .newszeile3 .newszeile3p{
