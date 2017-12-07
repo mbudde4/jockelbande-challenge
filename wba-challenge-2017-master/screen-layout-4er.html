@@ -15,6 +15,52 @@
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    
+    <!-- ##############Javascript########### --> 
+    <script type=text/javascript>
+        
+        
+        var akt_geschwindigkeit = 50;
+        var zul_geschwindigkeit = 60;
+          
+        var ueberschreitung = akt_geschwindigkeit - zul_geschwindigkeit;
+          
+        var ueberschreitung_t = 0;
+        
+       var image_tracker='links1';
+      function change1() {
+            var image = document.getElementById('switch1');
+          
+            
+            if(image_tracker=='links1')
+            {
+                  image.src='images/tsl/Switch-2.svg';
+                  image_tracker='rechts1';
+            }
+            else
+            {
+              image.src='images/tsl/Switch.svg';
+              image_tracker='links1';
+            }
+      }
+         var image_tracker='links2';
+      function change2() {
+            var image = document.getElementById('switch2');
+            if(image_tracker=='links2')
+            {
+                  image.src='images/tsl/Switch-2.svg';
+                  image_tracker='rechts2';
+                  ueberschreitung_t= ueberschreitung-2;
+                
+            }
+            else
+            {
+              image.src='images/tsl/Switch.svg';
+              image_tracker='links2';
+            }
+      }
+    </script>
+<!-- ##############Javascript########### -->  
 </head>
 
 <body>
@@ -60,11 +106,11 @@
                     <p>Zulässige Geschwindigkeit: <span>50</span></p>
                     <!-- ###########-->
                     <hr>
-                    <p>Innerhalb geschlossener Ortschaften <img class="" src="images/tsl/Switch.svg"></p>
+                    <p>Innerhalb geschlossener Ortschaften <img id="switch1"onclick="change1();" src="images/tsl/Switch.svg"></p>
                     <hr>
                     <p>Fahrzeug: Tesla Modell</p>
                     <hr>
-                    <p>Toleranz abziehen <img class="" src="images/tsl/Switch.svg"></p>
+                    <p>Toleranz abziehen <img id="switch2" onclick="change2();"   src="images/tsl/Switch.svg"></p>
                     
                     
                     <!--neu-->
