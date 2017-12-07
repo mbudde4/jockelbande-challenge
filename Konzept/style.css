@@ -44,7 +44,7 @@ div{
 }
 
 .rechts h1{
-	margin-left: 1000px;
+	margin-left: 1400px;
 	padding-top: 120px; 
 	font-size: 30pt;
 	font-variant: small-caps;
@@ -54,7 +54,7 @@ div{
 	width: 300px;
 	text-align: right;
 	line-height: 25px;
-	margin-left: 1000px;
+	margin-left: 1400px;
 	padding-top: 30px;
 	font-size: 20pt;
 }
@@ -92,6 +92,14 @@ div{
 	background-color: #666666;
 	-->
 }
+
+#ausblick h1{
+	color: white;
+}
+
+#ausblick p{
+	color: white;
+}
 	
 
 #fazit {
@@ -111,6 +119,7 @@ div{
 
 #anlagen a{
 		text-decoration: none;
+		color: black;
 	}
 	
 
