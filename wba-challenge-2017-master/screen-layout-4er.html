@@ -25,7 +25,7 @@
           
         var ueberschreitung = akt_geschwindigkeit - zul_geschwindigkeit;
           
-        var ueberschreitung_t = 0;
+        
         
        var image_tracker1='links1';
       function change1() {
@@ -50,8 +50,7 @@
             {
                   image.src='images/tsl/Switch-2.svg';
                   image_tracker2='rechts2';
-                  ueberschreitung_t= ueberschreitung-2;
-                
+                  
             }
             else
             {
@@ -133,7 +132,17 @@
                         
                         <h1 class= "tatvorwurfh"> Tatvorwurf </h1>
                         
-                        <p class="tatvorwurfp"> Sie haben die zulässige Höchstgeschwindigkeit von 50 km/h innerhalb geschlossener Ortschaften um 7 Km/h überschritten (abzüglich Toleranzbereich). </p>
+                        <p class="tatvorwurfp"> Sie haben die zulässige Höchstgeschwindigkeit von 50 km/h innerhalb geschlossener Ortschaften um
+                        <script>
+                            if(image_tracker2=="links2")
+                                {
+                                     document.write(ueberschreitung*(-1))
+                                }
+                           else{
+                                     document.write((ueberschreitung-3)*(-1))
+                                }
+                        </script>
+                        Km/h überschritten (abzüglich Toleranzbereich). </p>
                         
                     </div>
                     
